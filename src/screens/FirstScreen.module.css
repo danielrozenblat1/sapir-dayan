@@ -1,0 +1,518 @@
+
+    .circle {
+        width: 400px;
+        height: 200px;
+        background: linear-gradient(180deg, #F5D6C8 0%, #E5A88E 100%);
+        box-shadow: 0 0 5px 1px rgba(255, 255, 255, 0.3); /* שינוי צל לעדינות */
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        border-radius: 50%;
+        margin:0 auto -100px;
+        transform: translateY(-150px);
+    }
+.image{
+    width:90%;
+    object-fit: contain;
+}
+.background{
+    display: flex;
+    justify-content: center
+}
+.logo{
+    display: flex;
+    width:80%;
+}
+.claim{
+    font-family: "Assistant";
+    font-size: 2rem;
+    text-align: center;
+    margin:0 auto;
+    color:rgb(38, 19, 6);
+    text-shadow: 1px 1px 1px rgb(130, 130, 130);
+}
+.description{
+    font-family: "Assistant";
+    font-size: 1.5rem;
+    text-align: center;
+    margin:1% auto;
+    color:rgb(38, 19, 6);
+    text-shadow: 1px 1px 1px rgb(38, 19, 6);
+}
+    .name{
+        font-family: "Assistant";
+        font-size: 5rem;
+        text-align: center;
+        margin:0 auto;
+        color:rgb(38, 19, 6);
+        text-shadow: 2px 2px 3px rgb(38, 19, 6);
+    }
+    .row{
+        display: flex;
+        flex-direction: row;
+        width:70%;
+        margin:3% auto;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    @media only screen and (max-width: 350px) {
+        .circle {
+            width: 200px;
+            height: 100px;
+            background: linear-gradient(180deg, #F5D6C8 0%, #E5A88E 100%);
+            box-shadow: 0 0 5px 1px rgba(255, 255, 255, 0.3); /* שינוי צל לעדינות */
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            border-radius: 50%;
+            margin:0 auto -50px;
+            transform: translateY(-50px);
+        }
+    .image{
+       width:100vw;
+        object-fit: cover;
+    }
+    .background{
+        display: flex;
+        justify-content: center;
+        width:100%;
+    }
+    .logo{
+        display: flex;
+        width:80%;
+    }
+    .claim{
+        font-family: "Assistant";
+        font-size: 1.2rem;
+        text-align: center;
+        margin:0 auto;
+        width:80%;
+        color:rgb(38, 19, 6);
+        text-shadow: 1px 1px 1px rgb(130, 130, 130);
+    }
+    .description{
+        font-family: "Assistant";
+        font-size: 1.2rem;
+        text-align: center;
+        margin:1% auto;
+        width:90%;
+        color:rgb(38, 19, 6);
+        text-shadow: 1px 1px 1px rgba(38, 19, 6, 0.5);
+    }
+        .name{
+            font-family: "Assistant";
+            font-size:3rem;
+            text-align: center;
+            margin:0 auto;
+            color:rgb(38, 19, 6);
+            text-shadow: 2px 2px 3px rgba(38, 19, 6, 0.414);
+        }
+        .row{
+            display: flex;
+            flex-direction: row;
+            width:90%;
+            margin:20px auto;
+            justify-content: space-evenly;
+        }
+
+
+    }
+    @media only screen  and (min-width: 350px) and (max-width: 450px) {
+        .circle {
+            width: 250px;
+            height: 125px;
+            background: linear-gradient(180deg, #F5D6C8 0%, #E5A88E 100%);
+            box-shadow: 0 0 5px 1px rgba(255, 255, 255, 0.3); /* שינוי צל לעדינות */
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            border-radius: 50%;
+            margin:0 auto -50px;
+            transform: translateY(-60px);
+        }
+    .image{
+       width:100vw;
+        object-fit: cover;
+    }
+    .background{
+        display: flex;
+        justify-content: center;
+        width:100%;
+    }
+    .logo{
+        display: flex;
+        width:80%;
+    }
+    .claim{
+        font-family: "Assistant";
+        font-size: 1.35rem;
+        text-align: center;
+        margin:0 auto;
+        width:80%;
+        color:rgb(38, 19, 6);
+        text-shadow: 1px 1px 1px rgb(130, 130, 130);
+    }
+    .description{
+        font-family: "Assistant";
+        font-size: 1.35rem;
+        text-align: center;
+        margin:1% auto;
+        width:90%;
+        color:rgb(38, 19, 6);
+        text-shadow: 1px 1px 1px rgba(38, 19, 6, 0.5);
+    }
+        .name{
+            font-family: "Assistant";
+            font-size:3rem;
+            text-align: center;
+            margin:0 auto;
+            color:rgb(38, 19, 6);
+            text-shadow: 2px 2px 3px rgba(38, 19, 6, 0.414);
+        }
+        .row{
+            display: flex;
+            flex-direction: row;
+            width:90%;
+            margin:20px auto;
+            justify-content: space-evenly;
+        }
+
+
+    }
+    @media only screen  and (min-width: 450px) and (max-width: 550px) {
+        .circle {
+            width: 280px;
+            height: 140px;
+            background: linear-gradient(180deg, #F5D6C8 0%, #E5A88E 100%);
+            box-shadow: 0 0 5px 1px rgba(255, 255, 255, 0.3); /* שינוי צל לעדינות */
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            border-radius: 50%;
+            margin:0 auto -50px;
+            transform: translateY(-60px);
+        }
+    .image{
+       width:90vw;
+        object-fit: cover;
+    }
+    .background{
+        display: flex;
+        justify-content: center;
+        width:100%;
+    }
+    .logo{
+        display: flex;
+        width:80%;
+    }
+    .claim{
+        font-family: "Assistant";
+        font-size: 1.4rem;
+        text-align: center;
+        margin:0 auto;
+        width:80%;
+        color:rgb(38, 19, 6);
+        text-shadow: 1px 1px 1px rgb(130, 130, 130);
+    }
+    .description{
+        font-family: "Assistant";
+        font-size: 1.4rem;
+        text-align: center;
+        margin:1% auto;
+        width:90%;
+        color:rgb(38, 19, 6);
+        text-shadow: 1px 1px 1px rgba(38, 19, 6, 0.5);
+    }
+        .name{
+            font-family: "Assistant";
+            font-size:3.5rem;
+            text-align: center;
+            margin:0 auto;
+            color:rgb(38, 19, 6);
+            text-shadow: 2px 2px 3px rgba(38, 19, 6, 0.414);
+        }
+        .row{
+            display: flex;
+            flex-direction: row;
+            width:90%;
+            margin:20px auto;
+            justify-content: space-evenly;
+        }
+    }
+    @media only screen  and (min-width: 550px) and (max-width: 650px) {
+        .circle {
+            width: 300px;
+            height: 150px;
+            background: linear-gradient(180deg, #F5D6C8 0%, #E5A88E 100%);
+            box-shadow: 0 0 5px 1px rgba(255, 255, 255, 0.3); /* שינוי צל לעדינות */
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            border-radius: 50%;
+            margin:0 auto -70px;
+            transform: translateY(-80px);
+        }
+    .image{
+       width:80vw;
+        object-fit: cover;
+    }
+    .background{
+        display: flex;
+        justify-content: center;
+        width:100%;
+    }
+    .logo{
+        display: flex;
+        width:80%;
+    }
+    .claim{
+        font-family: "Assistant";
+        font-size: 1.4rem;
+        text-align: center;
+        margin:0 auto;
+        width:80%;
+        color:rgb(38, 19, 6);
+        text-shadow: 1px 1px 1px rgb(130, 130, 130);
+    }
+    .description{
+        font-family: "Assistant";
+        font-size: 1.4rem;
+        text-align: center;
+        margin:1% auto;
+        width:90%;
+        color:rgb(38, 19, 6);
+        text-shadow: 1px 1px 1px rgba(38, 19, 6, 0.5);
+    }
+        .name{
+            font-family: "Assistant";
+            font-size:3.5rem;
+            text-align: center;
+            margin:0 auto;
+            color:rgb(38, 19, 6);
+            text-shadow: 2px 2px 3px rgba(38, 19, 6, 0.414);
+        }
+        .row{
+            display: flex;
+            flex-direction: row;
+            width:90%;
+            margin:20px auto;
+            justify-content: space-evenly;
+        }
+    }
+    @media only screen  and (min-width: 650px) and (max-width: 750px) {
+        .circle {
+            width: 320px;
+            height: 160px;
+            background: linear-gradient(180deg, #F5D6C8 0%, #E5A88E 100%);
+            box-shadow: 0 0 5px 1px rgba(255, 255, 255, 0.3); /* שינוי צל לעדינות */
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            border-radius: 50%;
+            margin:0 auto -80px;
+            transform: translateY(-90px);
+        }
+    .image{
+       width:75vw;
+        object-fit: cover;
+    }
+    .background{
+        display: flex;
+        justify-content: center;
+        width:100%;
+    }
+    .logo{
+        display: flex;
+        width:80%;
+    }
+    .claim{
+        font-family: "Assistant";
+        font-size: 1.5rem;
+        text-align: center;
+        margin:0 auto;
+        width:80%;
+        color:rgb(38, 19, 6);
+        text-shadow: 1px 1px 1px rgb(130, 130, 130);
+    }
+    .description{
+        font-family: "Assistant";
+        font-size: 1.5rem;
+        text-align: center;
+        margin:1% auto;
+        width:90%;
+        color:rgb(38, 19, 6);
+        text-shadow: 1px 1px 1px rgba(38, 19, 6, 0.5);
+    }
+        .name{
+            font-family: "Assistant";
+            font-size:4rem;
+            text-align: center;
+            margin:0 auto;
+            color:rgb(38, 19, 6);
+            text-shadow: 2px 2px 3px rgba(38, 19, 6, 0.414);
+        }
+        .row{
+            display: flex;
+            flex-direction: row;
+            width:90%;
+            margin:20px auto;
+            justify-content: space-evenly;
+        }
+    }
+    @media only screen  and (min-width: 750px) and (max-width: 850px) {
+        .circle {
+            width: 320px;
+            height: 160px;
+            background: linear-gradient(180deg, #F5D6C8 0%, #E5A88E 100%);
+            box-shadow: 0 0 5px 1px rgba(255, 255, 255, 0.3); /* שינוי צל לעדינות */
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            border-radius: 50%;
+            margin:0 auto -80px;
+            transform: translateY(-90px);
+        }
+    .image{
+       width:65vw;
+        object-fit: cover;
+    }
+    .background{
+        display: flex;
+        justify-content: center;
+        width:100%;
+    }
+    .logo{
+        display: flex;
+        width:80%;
+    }
+    .claim{
+        font-family: "Assistant";
+        font-size: 1.5rem;
+        text-align: center;
+        margin:0 auto;
+        width:80%;
+        color:rgb(38, 19, 6);
+        text-shadow: 1px 1px 1px rgb(130, 130, 130);
+    }
+    .description{
+        font-family: "Assistant";
+        font-size: 1.5rem;
+        text-align: center;
+        margin:1% auto;
+        width:90%;
+        color:rgb(38, 19, 6);
+        text-shadow: 1px 1px 1px rgba(38, 19, 6, 0.5);
+    }
+        .name{
+            font-family: "Assistant";
+            font-size:4rem;
+            text-align: center;
+            margin:0 auto;
+            color:rgb(38, 19, 6);
+            text-shadow: 2px 2px 3px rgba(38, 19, 6, 0.414);
+        }
+        .row{
+            display: flex;
+            flex-direction: row;
+            width:90%;
+            margin:20px auto;
+            justify-content: space-evenly;
+        }
+    }
+    @media only screen  and (min-width: 850px) and (max-width: 1050px) {
+
+        .circle {
+            width: 320px;
+            height: 160px;
+            background: linear-gradient(180deg, #F5D6C8 0%, #E5A88E 100%);
+            box-shadow: 0 0 5px 1px rgba(255, 255, 255, 0.3); /* שינוי צל לעדינות */
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            border-radius: 50%;
+            margin:0 auto -80px;
+            transform: translateY(-90px);
+        }
+    .claim{
+        font-family: "Assistant";
+        font-size: 1.8rem;
+        text-align: center;
+        margin:0 auto;
+        width:80%;
+        color:rgb(38, 19, 6);
+        text-shadow: 1px 1px 1px rgb(130, 130, 130);
+    }
+    .description{
+        font-family: "Assistant";
+        font-size: 1.8rem;
+        text-align: center;
+        margin:1% auto;
+        width:90%;
+        color:rgb(38, 19, 6);
+        text-shadow: 1px 1px 1px rgba(38, 19, 6, 0.5);
+    }
+        .name{
+            font-family: "Assistant";
+            font-size:4.5rem;
+            text-align: center;
+            margin:0 auto;
+            color:rgb(38, 19, 6);
+            text-shadow: 2px 2px 3px rgba(38, 19, 6, 0.414);
+        }
+        .row{
+            display: flex;
+            flex-direction: row;
+            width:100%;
+            margin:20px auto;
+            justify-content: space-evenly;
+        }
+    }
+    @media only screen  and (min-width:1050px) and (max-width: 1250px) {
+
+        .circle {
+            width: 340px;
+            height: 170px;
+            background: linear-gradient(180deg, #F5D6C8 0%, #E5A88E 100%);
+            box-shadow: 0 0 5px 1px rgba(255, 255, 255, 0.3); /* שינוי צל לעדינות */
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            border-radius: 50%;
+            margin:0 auto -90px;
+            transform: translateY(-100px);
+        }
+    .claim{
+        font-family: "Assistant";
+        font-size: 1.8rem;
+        text-align: center;
+        margin:0 auto;
+        width:80%;
+        color:rgb(38, 19, 6);
+        text-shadow: 1px 1px 1px rgb(130, 130, 130);
+    }
+    .description{
+        font-family: "Assistant";
+        font-size: 1.8rem;
+        text-align: center;
+        margin:1% auto;
+        width:90%;
+        color:rgb(38, 19, 6);
+        text-shadow: 1px 1px 1px rgba(38, 19, 6, 0.5);
+    }
+        .name{
+            font-family: "Assistant";
+            font-size:4.5rem;
+            text-align: center;
+            margin:0 auto;
+            color:rgb(38, 19, 6);
+            text-shadow: 2px 2px 3px rgba(38, 19, 6, 0.414);
+        }
+        .row{
+            display: flex;
+            flex-direction: row;
+            width:100%;
+            margin:20px auto;
+            justify-content: space-evenly;
+        }
+    }

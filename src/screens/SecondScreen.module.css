@@ -1,0 +1,258 @@
+.center{
+    width:25%;
+    display: flex;
+    justify-content: center;
+    margin:2% auto;
+}
+.title{
+    font-family: "Assistant";
+    font-size: 3.5rem;
+    text-align: center;
+    margin:0 auto;
+    color:rgb(38, 19, 6);
+    text-shadow: 2px 2px 3px rgb(38, 19, 6);
+}
+.image{
+    width:100%;
+    object-fit: contain;
+}
+.description{
+    font-family: "AssistantR";
+    font-size: 1.4rem;
+    text-align: center;
+    margin:1% auto;
+    width:50%;
+    color:rgb(38, 19, 6);
+}
+.bold{
+    font-family: "Assistant";
+    font-size: 1.4rem;
+    text-align: center;
+    margin:1% auto;
+    width:50%;
+    color:rgb(38, 19, 6);
+}
+@media only screen and (max-width: 350px) {
+    .center{
+        width:80%;
+        display: flex;
+        justify-content: center;
+        margin:2% auto;
+    }
+    .title{
+        font-family: "Assistant";
+        font-size: 2.5rem;
+        text-align: center;
+        margin:0 auto;
+        color:rgba(38, 19, 6, 0.496);
+        text-shadow: 1px 1px 1px rgba(38, 19, 6, 0.745);
+    }
+    .description{
+        font-family: "AssistantR";
+        font-size: 1.1rem;
+        text-align: center;
+        margin:1% auto;
+        width:90%;
+        color:rgb(38, 19, 6);
+    }
+    .bold{
+        font-family: "Assistant";
+        font-size: 1.2rem;
+        text-align: center;
+        margin:1% auto;
+        width:90%;
+        color:rgb(38, 19, 6);
+    }
+}
+@media only screen and (min-width: 350px) and (max-width: 450px) {
+    .center{
+        width:75%;
+        display: flex;
+        justify-content: center;
+        margin:2% auto;
+    }
+    .title{
+        font-family: "Assistant";
+        font-size: 2.8rem;
+        text-align: center;
+        margin:0 auto;
+        color:rgba(38, 19, 6, 0.496);
+        text-shadow: 1px 1px 1px rgba(38, 19, 6, 0.745);
+    }
+    .description{
+        font-family: "AssistantR";
+        font-size: 1.2rem;
+        text-align: center;
+        margin:1% auto;
+        width:90%;
+        color:rgb(38, 19, 6);
+    }
+    .bold{
+        font-family: "Assistant";
+        font-size: 1.4rem;
+        text-align: center;
+        margin:1% auto;
+        width:90%;
+        color:rgb(38, 19, 6);
+    }
+}
+@media only screen and (min-width: 450px) and (max-width: 650px) {
+    .center{
+        width:70%;
+        display: flex;
+        justify-content: center;
+        margin:2% auto;
+    }
+    .title{
+        font-family: "Assistant";
+        font-size: 3rem;
+        text-align: center;
+        margin:0 auto;
+        color:rgba(38, 19, 6, 0.496);
+        text-shadow: 1px 1px 1px rgba(38, 19, 6, 0.745);
+    }
+    .description{
+        font-family: "AssistantR";
+        font-size: 1.25rem;
+        text-align: center;
+        margin:1% auto;
+        width:90%;
+        color:rgb(38, 19, 6);
+    }
+    .bold{
+        font-family: "Assistant";
+        font-size: 1.5rem;
+        text-align: center;
+        margin:1% auto;
+        width:90%;
+        color:rgb(38, 19, 6);
+    }
+}
+@media only screen and (min-width: 650px) and (max-width: 750px) {
+    .center{
+        width:60%;
+        display: flex;
+        justify-content: center;
+        margin:2% auto;
+    }
+    .title{
+        font-family: "Assistant";
+        font-size: 3.2rem;
+        text-align: center;
+        margin:0 auto;
+        color:rgba(38, 19, 6, 0.496);
+        text-shadow: 1px 1px 1px rgba(38, 19, 6, 0.745);
+    }
+    .description{
+        font-family: "AssistantR";
+        font-size: 1.4rem;
+        text-align: center;
+        margin:1% auto;
+        width:90%;
+        color:rgb(38, 19, 6);
+    }
+    .bold{
+        font-family: "Assistant";
+        font-size: 1.6rem;
+        text-align: center;
+        margin:1% auto;
+        width:90%;
+        color:rgb(38, 19, 6);
+    }
+}
+@media only screen and (min-width: 750px) and (max-width: 850px) {
+    .center{
+        width:45%;
+        display: flex;
+        justify-content: center;
+        margin:2% auto;
+    }
+    .title{
+        font-family: "Assistant";
+        font-size: 3.2rem;
+        text-align: center;
+        margin:0 auto;
+        color:rgba(38, 19, 6, 0.496);
+        text-shadow: 1px 1px 1px rgba(38, 19, 6, 0.745);
+    }
+    .description{
+        font-family: "AssistantR";
+        font-size: 1.4rem;
+        text-align: center;
+        margin:1% auto;
+        width:90%;
+        color:rgb(38, 19, 6);
+    }
+    .bold{
+        font-family: "Assistant";
+        font-size: 1.6rem;
+        text-align: center;
+        margin:1% auto;
+        width:90%;
+        color:rgb(38, 19, 6);
+    }
+}
+@media only screen and (min-width: 850px) and (max-width: 1050px) {
+    .center{
+        width:40%;
+        display: flex;
+        justify-content: center;
+        margin:2% auto;
+    }
+    .title{
+        font-family: "Assistant";
+        font-size: 3.5rem;
+        text-align: center;
+        margin:0 auto;
+        color:rgba(38, 19, 6, 0.496);
+        text-shadow: 1px 1px 1px rgba(38, 19, 6, 0.745);
+    }
+    .description{
+        font-family: "AssistantR";
+        font-size: 1.4rem;
+        text-align: center;
+        margin:1% auto;
+        width:80%;
+        color:rgb(38, 19, 6);
+    }
+    .bold{
+        font-family: "Assistant";
+        font-size: 1.6rem;
+        text-align: center;
+        margin:1% auto;
+        width:80%;
+        color:rgb(38, 19, 6);
+    }
+}
+@media only screen and (min-width: 1050px) and (max-width: 1250px) {
+    .center{
+        width:30%;
+        display: flex;
+        justify-content: center;
+        margin:2% auto;
+    }
+    .title{
+        font-family: "Assistant";
+        font-size: 3.5rem;
+        text-align: center;
+        margin:0 auto;
+        color:rgba(38, 19, 6, 0.496);
+        text-shadow: 1px 1px 1px rgba(38, 19, 6, 0.745);
+    }
+    .description{
+        font-family: "AssistantR";
+        font-size: 1.4rem;
+        text-align: center;
+        margin:1% auto;
+        width:80%;
+        color:rgb(38, 19, 6);
+    }
+    .bold{
+        font-family: "Assistant";
+        font-size: 1.6rem;
+        text-align: center;
+        margin:1% auto;
+        width:80%;
+        color:rgb(38, 19, 6);
+    }
+}
