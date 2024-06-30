@@ -16,7 +16,7 @@ return <>
     <div className={styles.row}>
     <Box icon={years} description="14 שנות נסיון בתחום"/>
     <Box icon={plus} description="אני גם מאפרת אותך וגם מעצבת את השיער שלך"/>
-    <Box icon={gift} description="את מקבלת ממני טיפול פנים בחינם ביום החתונה"/>
+    <Box icon={gift} description="את מקבלת ממני טיפול פנים וזוהר בחינם ביום החתונה"/>
     </div>
     <div className={styles.description}>חשוב לי לציין שאת מקבלת ממני בנוסף בחינם לגמרי מידע על ספקים, מקום התארגנות והמון ידע מהנסיון הארוך שלי בתחום</div>
     <Button text="ספיר אני רוצה שנדבר"/>

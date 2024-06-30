@@ -68,10 +68,7 @@ const ForthScreen=()=>{
             type: 'image',
             src: result14,
           },
-          {
-            type: 'image',
-            src: result15,
-          },
+     
           {
             type: 'image',
             src: result3,
@@ -97,10 +94,7 @@ const ForthScreen=()=>{
           src: result8,
         },
   
-        {
-          type: 'image',
-          src: result11,
-        },
+   
         {
           type: 'image',
           src: result12,

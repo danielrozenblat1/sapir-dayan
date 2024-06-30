@@ -13,11 +13,11 @@ const CountingUp = () => {
  
 
       <div className={styles.font}>
-        {inView && <CountUp end={500} duration={6.5} />}
+        {inView && <CountUp end={1000} duration={6.5} />}
         <div className={styles.explain}>כלות שעברו את הליווי שלי ליום הכי חשוב בחיים שלהן</div>
       </div>
       <div className={styles.font}>
-        {inView && <CountUp end={1000} duration={5} />}
+        {inView && <CountUp end={10000} duration={5} />}
         <div className={styles.explain}>מלוות שאיפרתי</div>
       </div>
     </div>
