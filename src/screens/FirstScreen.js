@@ -5,6 +5,7 @@ import brides2 from "../images/ספיר דיין כלות טלפונים.png";
 import bride from "../Icons/wired-gradient-653-marriage (1).json";
 import makeup from "../Icons/wired-gradient-1599-powder-makeup-face (1).json";
 import hair from "../Icons/wired-gradient-692-hairdresser-barber (1).json";
+import learn from "../Icons/wired-gradient-1568-barber-shop.json";
 import Circle from "../components/circle/Circle";
 import logo from "../images/ספיר דיין לוגו.png";
 import ScrollReveal from "scrollreveal";
@@ -54,7 +55,11 @@ const FirstScreen = () => {
           <div className={styles.row}>
             <Circle text="איפור מקצועי" icon={makeup} />
             <Circle text="איפור כלות" icon={bride} />
-            <Circle text="עיצוב שיער" icon={hair} />
+    
+          </div>
+          <div className={styles.row}>
+          <Circle text="עיצוב שיער" icon={hair} />
+          <Circle text="השתלמויות שיער ואיפור" icon={learn} />
           </div>
           <Button text="ספיר, מעניין אותי לדעת מה את מציעה לי" />
         </>

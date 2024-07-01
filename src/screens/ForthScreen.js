@@ -15,10 +15,41 @@ import result13 from "../images/ספיר דיין כלה 13.png"
 import result14 from "../images/ספיר דיין כלה 14.png"
 import result15 from "../images/ספיר דיין כלה 15.png"
 import result16 from "../images/ספיר דיין כלה 16.png"
-
-
-
-
+import result17 from "../images/ספיר דיין כלה 17.png"
+import result18 from "../images/ספיר דיין כלה 18.png"
+import result51 from "../videos/ספיר דיין כלה 51.mp4"
+import result19 from "../images/ספיר דיין כלה 19.png"
+import result20 from "../images/ספיר דיין כלה 20.png"
+import result21 from "../images/ספיר דיין כלה 21.png"
+import result22 from "../images/ספיר דיין כלה 22.png"
+import result23 from "../images/ספיר דיין כלה 23.png"
+import result24 from "../images/ספיר דיין כלה 24.png"
+import result25 from "../images/ספיר דיין כלה 25.png"
+import result26 from "../images/ספיר דיין כלה 26.png"
+import result27 from "../images/ספיר דיין כלה 27.png"
+import result28 from "../images/ספיר דיין כלה 28.png"
+import result29 from "../images/ספיר דיין כלה 29.png"
+import result30 from "../images/ספיר דיין כלה 30.png"
+import result31 from "../images/ספיר דיין כלה 31.png"
+import result32 from "../images/ספיר דיין כלה 32.png"
+import result33 from "../images/ספיר דיין כלה 33.png"
+import result34 from "../images/ספיר דיין כלה 34.png"
+import result35 from "../images/ספיר דיין כלה 35.png"
+import result36 from "../images/ספיר דיין כלה 36.png"
+import result37 from "../images/ספיר דיין כלה 37.png"
+import result38 from "../images/ספיר דיין כלה 38.png"
+import result39 from "../images/ספיר דיין כלה 39.png"
+import result40 from "../images/ספיר דיין כלה 40.png"
+import result41 from "../images/ספיר דיין כלה 41.png"
+import result42 from "../images/ספיר דיין כלה 42.png"
+import result43 from "../images/ספיר דיין כלה 43.png"
+import result44 from "../images/ספיר דיין כלה 44.png"
+import result45 from "../images/ספיר דיין כלה 45.png"
+import result46 from "../images/ספיר דיין כלה 46.png"
+import result47 from "../images/ספיר דיין כלה 47.png"
+import result48 from "../images/ספיר דיין כלה 48.png"
+import result49 from "../images/ספיר דיין כלה 49.png"
+import result50 from "../images/ספיר דיין כלה 50.png"
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
@@ -39,20 +70,22 @@ const ForthScreen=()=>{
       };
    
     const content = [
-       
+
+      {
+        type: 'image',
+        src: result3,
+      },
+
+      {
+        type: 'image',
+        src: result24,
+      },
         
       
    
  
 
-        {
-          type: 'image',
-          src: result6,
-        }, 
-         {
-            type: 'image',
-            src: result1,
-          },
+       
           {
               type: 'image',
               src: result2,
@@ -63,16 +96,20 @@ const ForthScreen=()=>{
                 type: 'image',
                 src: result5,
               },
+              {
+                type: 'image',
+                src: result6,
+              }, 
+               {
+                  type: 'image',
+                  src: result1,
+                },
              
         {
             type: 'image',
             src: result14,
           },
      
-          {
-            type: 'image',
-            src: result3,
-          },
           {
             type: 'image',
             src: result10,
@@ -109,6 +146,156 @@ const ForthScreen=()=>{
             src: result16,
           },
 
+          {
+            type: 'image',
+            src: result17,
+          },
+          {
+            type: 'image',
+            src: result18,
+          },
+
+
+          {
+            type: 'image',
+            src: result19,
+          },
+
+          {
+            type: 'image',
+            src: result20,
+          },
+          {
+            type: 'image',
+            src: result21,
+          },
+          {
+            type: 'image',
+            src: result22,
+          },
+
+          {
+            type: 'image',
+            src: result23,
+          },
+     
+          {
+            type: 'image',
+            src: result25,
+          },
+
+          {
+            type: 'image',
+            src: result26,
+          },
+          {
+            type: 'image',
+            src: result27,
+          },
+          {
+            type: 'image',
+            src: result28,
+          },
+
+          {
+            type: 'image',
+            src: result29,
+          },
+          {
+            type: 'image',
+            src: result30,
+          },
+          {
+            type: 'image',
+            src: result31,
+          },
+
+          {
+            type: 'image',
+            src: result32,
+          },
+          {
+            type: 'image',
+            src: result33,
+          },
+          {
+            type: 'image',
+            src: result34,
+          },
+
+          {
+            type: 'image',
+            src: result35,
+          },
+          {
+            type: 'image',
+            src: result36,
+          },
+          {
+            type: 'image',
+            src: result37,
+          },
+
+          {
+            type: 'image',
+            src: result38,
+          },
+          {
+            type: 'image',
+            src: result39,
+          },
+          {
+            type: 'image',
+            src: result40,
+          },
+
+          {
+            type: 'image',
+            src: result41,
+          },
+          {
+            type: 'image',
+            src: result42,
+          },
+          {
+            type: 'image',
+            src: result43,
+          },
+
+          {
+            type: 'image',
+            src: result44,
+          },
+          {
+            type: 'image',
+            src: result45,
+          },
+          {
+            type: 'image',
+            src: result46,
+          },
+
+          {
+            type: 'image',
+            src: result47,
+          },
+          {
+            type: 'image',
+            src: result48,
+          },
+          {
+            type: 'image',
+            src: result49,
+          },
+          {
+            type: 'image',
+            src: result50,
+          },
+
+          {
+            type: 'video',
+            src: result51,
+          },
          
     ];
     
@@ -124,7 +311,19 @@ const ForthScreen=()=>{
               {item.type === 'image' && (
                 <img src={item.src} className={styles.image1} alt={`ספיר דיין כלה מספר ${index + 1}`} />
               )}
-  
+              {item.type === 'video' && (
+                <video
+                  style={{ width: "100%",display:"flex",objectFit:"cover", margin: "auto", height: "100%" }}
+                  muted
+                  controls
+                
+                  itemprop="image"
+                >
+                  <source src={item.src} type="video/mp4" />
+             
+                </video>
+         
+              )}
             </div>
           ))}
         </Slider>
