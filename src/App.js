@@ -7,6 +7,7 @@ import ForthScreen from './screens/ForthScreen';
 import FifthScreen from './screens/FifthScreen';
 import BasicAccordion from './components/Akordion/Akordion';
 import ByMe from './components/ByMe/ByMe';
+import NewImagesGrid from './screens/grid/NewImageGrid';
 
 
 function App() {
@@ -17,7 +18,9 @@ function App() {
   <ForthScreen/>
   <ThirdScreen/>
 <FifthScreen/>
+<NewImagesGrid/>
   <BasicAccordion/>
+
   <ByMe/>
   </div>
   </>

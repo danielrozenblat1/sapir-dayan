@@ -7,6 +7,18 @@
     color:rgb(38, 19, 6);
     text-shadow: 2px 2px 3px rgb(38, 19, 6);
 }
+.center{
+    display: flex;
+    justify-content: center;
+    margin:2% auto;
+    width: 20%;
+}
+.image{
+    width:100%;
+    object-fit: contain;
+    box-shadow: 0 0 5px 1px #555;
+    border-radius: 20px;
+}
 .description{
     font-family: "AssistantR";
     font-size: 1.4rem;
@@ -39,6 +51,12 @@
         width:95%;
         color:rgb(38, 19, 6);
     }
+    .center{
+        display: flex;
+        justify-content: center;
+        margin:2% auto;
+        width: 80%;
+    }
 }
 @media only screen and (min-width: 350px) and (max-width: 450px) {
     .title{
@@ -49,6 +67,12 @@
         direction: rtl;
         color:rgb(38, 19, 6);
         text-shadow: 2px 2px 3px rgba(38, 19, 6, 0.426);
+    }
+    .center{
+        display: flex;
+        justify-content: center;
+        margin:2% auto;
+        width: 75%;
     }
     .description{
         font-family: "AssistantR";
@@ -69,6 +93,12 @@
         color:rgb(38, 19, 6);
         text-shadow: 2px 2px 3px rgba(38, 19, 6, 0.426);
     }
+    .center{
+        display: flex;
+        justify-content: center;
+        margin:2% auto;
+        width: 50%;
+    }
     .description{
         font-family: "AssistantR";
         font-size: 1.2rem;
@@ -77,4 +107,20 @@
         width:85%;
         color:rgb(38, 19, 6);
     }
+}
+@media only screen and (min-width: 650px) and (max-width: 850px) {
+    .center{
+        display: flex;
+        justify-content: center;
+        margin:2% auto;
+        width: 40%;
+    } 
+}
+@media only screen and (min-width: 850px) and (max-width: 1050px) {
+    .center{
+        display: flex;
+        justify-content: center;
+        margin:2% auto;
+        width: 30%;
+    } 
 }

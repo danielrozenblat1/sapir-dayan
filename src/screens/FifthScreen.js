@@ -5,7 +5,7 @@ import plus from "../Icons/wired-lineal-48-plus-to-square-rotation.json"
 import Button from "../components/button/Button"
 import CountingUp from "../components/count/CountUp"
 import Box from "../components/box/Box"
-
+import sapirBride from "../images/ספיר דיין כלה.jpg"
 const FifthScreen=()=>{
    
 
@@ -19,6 +19,9 @@ return <>
     <Box icon={gift} description="את מקבלת ממני טיפול פנים וזוהר בחינם ביום החתונה"/>
     </div>
     <div className={styles.description}>חשוב לי לציין שאת מקבלת ממני בנוסף בחינם לגמרי מידע על ספקים, מקום התארגנות והמון ידע מהנסיון הארוך שלי בתחום</div>
+    <div className={styles.title}>אז אם</div>
+    <div className={styles.description}>את רוצה להראות במיטבך באירוע שלך ? ולהיות הכלה שחלמת עליה ?! תלחצי על הכפתור שמתחת לתמונה ותשלחי לי הודעה</div>
+<div className={styles.center}><img className={styles.image} alt="ספיר דיין" src={sapirBride}/></div>
     <Button text="ספיר אני רוצה שנדבר"/>
 </>
 
