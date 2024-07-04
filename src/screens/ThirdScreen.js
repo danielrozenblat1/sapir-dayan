@@ -20,6 +20,10 @@ import result18 from "../images/ספיר דיין לקוחות ממליצות 18
 import result19 from "../images/ספיר דיין לקוחות ממליצות 19.png"
 import result20 from "../images/ספיר דיין לקוחות ממליצות 20.png"
 import result21 from "../images/ספיר דיין לקוחות ממליצות 21.png"
+import result22 from "../images/ספיר דיין לקוחות ממליצות 22.png"
+import result23 from "../images/ספיר דיין לקוחות ממליצות 23.png"
+import result24 from "../images/ספיר דיין לקוחות ממליצות 24.png"
+import result25 from "../images/ספיר דיין לקוחות ממליצות 25.png"
 
 
 
@@ -129,7 +133,22 @@ const ThirdScreen=()=>{
             type: 'image',
             src: result21,
           },
-         
+          {
+            type: 'image',
+            src: result22,
+          },
+          {
+            type: 'image',
+            src: result23,
+          },
+          {
+            type: 'image',
+            src: result24,
+          },
+          {
+            type: 'image',
+            src: result25,
+          },
     ];
     
    
