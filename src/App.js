@@ -8,6 +8,7 @@ import FifthScreen from './screens/FifthScreen';
 import BasicAccordion from './components/Akordion/Akordion';
 import ByMe from './components/ByMe/ByMe';
 import NewImagesGrid from './screens/grid/NewImageGrid';
+import PrivacyPolicy from './components/privacy/Privacy';
 
 
 function App() {
@@ -20,7 +21,12 @@ function App() {
 <FifthScreen/>
 <NewImagesGrid/>
   <BasicAccordion/>
+<PrivacyPolicy 
+  ownerName="ספיר דיין" 
 
+  phone="+972 52-704-7058" 
+  domain="https://sapirdayanmakeup.co.il/" 
+/>
   <ByMe/>
   </div>
   </>

@@ -12,7 +12,7 @@
         transform: translateY(-150px);
     }
 .image{
-    width:90%;
+    width:60%;
     object-fit: contain;
 }
 .background{

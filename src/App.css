@@ -4,5 +4,5 @@
   overflow: hidden;
 }
 body{
-  background: linear-gradient(135deg, rgba(227,189,167,1) 0%, rgba(246,214,192,1) 50%, rgba(227,189,167,1) 100%, rgba(246,214,192,1) 100%);
+  background: linear-gradient(135deg, rgb(251, 235, 226) 0%, rgb(250, 233, 222) 50%, rgb(252, 233, 221) 100%, rgb(254, 240, 230) 100%);
 }
