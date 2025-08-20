@@ -145,7 +145,349 @@ const ForthScreen=()=>{
       };
    
     const content = [
+           {
+            type: 'image',
+            src: new22,
+          },
+          {
+            type: 'image',
+            src: new23,
+          },
+          {
+            type: 'image',
+            src: new24,
+          },
+          {
+            type: 'image',
+            src: new25,
+          },
+          {
+            type: 'image',
+            src: new26,
+          },
+          {
+            type: 'image',
+            src: new27,
+          },
+          {
+            type: 'image',
+            src: new28,
+          },
+          {
+            type: 'image',
+            src: new29,
+          },
+          {
+            type: 'image',
+            src: new30,
+          },
+          {
+            type: 'image',
+            src: new31,
+          },
+          {
+            type: 'image',
+            src: new32,
+          },
+          {
+            type: 'image',
+            src: new33,
+          },
+       
+          {
+            type: 'image',
+            src: result19,
+          },
 
+          {
+            type: 'image',
+            src: result20,
+          },
+          {
+            type: 'image',
+            src: result21,
+          },
+          {
+            type: 'image',
+            src: result22,
+          },
+
+          {
+            type: 'image',
+            src: result23,
+          },
+     
+          {
+            type: 'image',
+            src: result25,
+          },
+
+          {
+            type: 'image',
+            src: result26,
+          },
+          {
+            type: 'image',
+            src: result27,
+          },
+          {
+            type: 'image',
+            src: result28,
+          },
+
+          {
+            type: 'image',
+            src: result29,
+          },
+          {
+            type: 'image',
+            src: result30,
+          },
+          {
+            type: 'image',
+            src: result31,
+          },
+
+          {
+            type: 'image',
+            src: result32,
+          },
+          {
+            type: 'image',
+            src: result33,
+          },
+          {
+            type: 'image',
+            src: result34,
+          },
+
+          {
+            type: 'image',
+            src: result35,
+          },
+          {
+            type: 'image',
+            src: result36,
+          },
+          {
+            type: 'image',
+            src: result37,
+          },
+
+          {
+            type: 'image',
+            src: result38,
+          },
+          {
+            type: 'image',
+            src: result39,
+          },
+          {
+            type: 'image',
+            src: result40,
+          },
+
+          {
+            type: 'image',
+            src: result41,
+          },
+          {
+            type: 'image',
+            src: result42,
+          },
+          {
+            type: 'image',
+            src: result43,
+          },
+
+          {
+            type: 'image',
+            src: result44,
+          },
+          {
+            type: 'image',
+            src: result45,
+          },
+          {
+            type: 'image',
+            src: result46,
+          },
+
+          {
+            type: 'image',
+            src: result47,
+          },
+          {
+            type: 'image',
+            src: result48,
+          },
+          {
+            type: 'image',
+            src: result49,
+          },
+          {
+            type: 'image',
+            src: result50,
+          },
+
+          {
+            type: 'video',
+            src: result51,
+          },
+
+          {
+            type: 'image',
+            src: new44,
+          },
+          {
+            type: 'image',
+            src: new45,
+          },
+          {
+            type: 'image',
+            src: new46,
+          },
+          {
+            type: 'image',
+            src: new47,
+          },
+          {
+            type: 'image',
+            src: new48,
+          },
+          {
+            type: 'image',
+            src: new49,
+          },
+          {
+            type: 'image',
+            src: new50,
+          },
+          {
+            type: 'image',
+            src: new51,
+          },
+          {
+            type: 'image',
+            src: new52,
+          },
+          {
+            type: 'image',
+            src: new53,
+          },
+          {
+            type: 'image',
+            src: new54,
+          },
+          {
+            type: 'image',
+            src: new55,
+          },
+          {
+            type: 'image',
+            src: new56,
+          },
+          {
+            type: 'image',
+            src: new57,
+          },
+          {
+            type: 'image',
+            src: new58,
+          },
+          {
+            type: 'image',
+            src: new59,
+          },
+   {
+            type: 'image',
+            src: new34,
+          },
+          {
+            type: 'image',
+            src: new35,
+          },
+          {
+            type: 'image',
+            src: new36,
+          },
+          {
+            type: 'image',
+            src: new37,
+          },
+          {
+            type: 'image',
+            src: new38,
+          },
+          {
+            type: 'image',
+            src: new39,
+          },
+          {
+            type: 'image',
+            src: new40,
+          },
+          {
+            type: 'image',
+            src: new41,
+          },
+          {
+            type: 'image',
+            src: new42,
+          },
+          {
+            type: 'image',
+            src: new43,
+          },
+      
+          {
+            type: 'image',
+            src: new60,
+          },
+          {
+            type: 'image',
+            src: new61,
+          },
+          {
+            type: 'image',
+            src: new62,
+          },
+          {
+            type: 'image',
+            src: new63,
+          },
+          {
+            type: 'image',
+            src: new64,
+          },
+          {
+            type: 'image',
+            src: new65,
+          },
+          {
+            type: 'image',
+            src: new66,
+          },
+          {
+            type: 'image',
+            src: new67,
+          },
+          {
+            type: 'image',
+            src: new68,
+          },
+          {
+            type: 'image',
+            src: new69,
+          },
+          {
+            type: 'image',
+            src: new70,
+          },
+          {
+            type: 'image',
+            src: new71,
+          },
       {
         type: 'image',
         src: result3,
@@ -314,347 +656,7 @@ const ForthScreen=()=>{
             type: 'image',
             src: new21,
           },
-          {
-            type: 'image',
-            src: new22,
-          },
-          {
-            type: 'image',
-            src: new23,
-          },
-          {
-            type: 'image',
-            src: new24,
-          },
-          {
-            type: 'image',
-            src: new25,
-          },
-          {
-            type: 'image',
-            src: new26,
-          },
-          {
-            type: 'image',
-            src: new27,
-          },
-          {
-            type: 'image',
-            src: new28,
-          },
-          {
-            type: 'image',
-            src: new29,
-          },
-          {
-            type: 'image',
-            src: new30,
-          },
-          {
-            type: 'image',
-            src: new31,
-          },
-          {
-            type: 'image',
-            src: new32,
-          },
-          {
-            type: 'image',
-            src: new33,
-          },
-          {
-            type: 'image',
-            src: new34,
-          },
-          {
-            type: 'image',
-            src: new35,
-          },
-          {
-            type: 'image',
-            src: new36,
-          },
-          {
-            type: 'image',
-            src: new37,
-          },
-          {
-            type: 'image',
-            src: new38,
-          },
-          {
-            type: 'image',
-            src: new39,
-          },
-          {
-            type: 'image',
-            src: new40,
-          },
-          {
-            type: 'image',
-            src: new41,
-          },
-          {
-            type: 'image',
-            src: new42,
-          },
-          {
-            type: 'image',
-            src: new43,
-          },
-          {
-            type: 'image',
-            src: new44,
-          },
-          {
-            type: 'image',
-            src: new45,
-          },
-          {
-            type: 'image',
-            src: new46,
-          },
-          {
-            type: 'image',
-            src: new47,
-          },
-          {
-            type: 'image',
-            src: new48,
-          },
-          {
-            type: 'image',
-            src: new49,
-          },
-          {
-            type: 'image',
-            src: new50,
-          },
-          {
-            type: 'image',
-            src: new51,
-          },
-          {
-            type: 'image',
-            src: new52,
-          },
-          {
-            type: 'image',
-            src: new53,
-          },
-          {
-            type: 'image',
-            src: new54,
-          },
-          {
-            type: 'image',
-            src: new55,
-          },
-          {
-            type: 'image',
-            src: new56,
-          },
-          {
-            type: 'image',
-            src: new57,
-          },
-          {
-            type: 'image',
-            src: new58,
-          },
-          {
-            type: 'image',
-            src: new59,
-          },
-          {
-            type: 'image',
-            src: new60,
-          },
-          {
-            type: 'image',
-            src: new61,
-          },
-          {
-            type: 'image',
-            src: new62,
-          },
-          {
-            type: 'image',
-            src: new63,
-          },
-          {
-            type: 'image',
-            src: new64,
-          },
-          {
-            type: 'image',
-            src: new65,
-          },
-          {
-            type: 'image',
-            src: new66,
-          },
-          {
-            type: 'image',
-            src: new67,
-          },
-          {
-            type: 'image',
-            src: new68,
-          },
-          {
-            type: 'image',
-            src: new69,
-          },
-          {
-            type: 'image',
-            src: new70,
-          },
-          {
-            type: 'image',
-            src: new71,
-          },
-          {
-            type: 'image',
-            src: result19,
-          },
-
-          {
-            type: 'image',
-            src: result20,
-          },
-          {
-            type: 'image',
-            src: result21,
-          },
-          {
-            type: 'image',
-            src: result22,
-          },
-
-          {
-            type: 'image',
-            src: result23,
-          },
      
-          {
-            type: 'image',
-            src: result25,
-          },
-
-          {
-            type: 'image',
-            src: result26,
-          },
-          {
-            type: 'image',
-            src: result27,
-          },
-          {
-            type: 'image',
-            src: result28,
-          },
-
-          {
-            type: 'image',
-            src: result29,
-          },
-          {
-            type: 'image',
-            src: result30,
-          },
-          {
-            type: 'image',
-            src: result31,
-          },
-
-          {
-            type: 'image',
-            src: result32,
-          },
-          {
-            type: 'image',
-            src: result33,
-          },
-          {
-            type: 'image',
-            src: result34,
-          },
-
-          {
-            type: 'image',
-            src: result35,
-          },
-          {
-            type: 'image',
-            src: result36,
-          },
-          {
-            type: 'image',
-            src: result37,
-          },
-
-          {
-            type: 'image',
-            src: result38,
-          },
-          {
-            type: 'image',
-            src: result39,
-          },
-          {
-            type: 'image',
-            src: result40,
-          },
-
-          {
-            type: 'image',
-            src: result41,
-          },
-          {
-            type: 'image',
-            src: result42,
-          },
-          {
-            type: 'image',
-            src: result43,
-          },
-
-          {
-            type: 'image',
-            src: result44,
-          },
-          {
-            type: 'image',
-            src: result45,
-          },
-          {
-            type: 'image',
-            src: result46,
-          },
-
-          {
-            type: 'image',
-            src: result47,
-          },
-          {
-            type: 'image',
-            src: result48,
-          },
-          {
-            type: 'image',
-            src: result49,
-          },
-          {
-            type: 'image',
-            src: result50,
-          },
-
-          {
-            type: 'video',
-            src: result51,
-          },
-
           // 72 תמונות חדשות
       
        
